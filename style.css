@@ -1,0 +1,352 @@
+*{
+
+margin:0;
+
+padding:0;
+
+box-sizing:border-box;
+
+scroll-behavior:smooth;
+
+font-family: 'Poppins', sans-serif;
+
+}
+
+
+
+body{
+
+background:#f8fafc;
+
+}
+
+
+
+
+
+nav{
+
+position:fixed;
+
+width:100%;
+
+background:#1e3a8a;
+
+padding:15px 0;
+
+text-align:center;
+
+z-index:1000;
+
+}
+
+
+
+nav a{
+
+color:white;
+
+margin:0 20px;
+
+text-decoration:none;
+
+font-weight:500;
+
+transition:0.3s;
+
+}
+
+
+
+nav a:hover{
+
+color:#facc15;
+
+letter-spacing:1px;
+
+}
+
+
+header {
+    height: 100vh;
+    background: linear-gradient(rgba(30, 58, 138, 0.85), rgba(37, 99, 235, 0.85)), 
+                url('https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=1470&auto=format&fit=crop');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.about-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.about-content { flex: 1; min-width: 300px; }
+.about-image { flex: 1; min-width: 300px; }
+
+
+
+header h1{
+
+font-size:50px;
+
+margin-bottom:15px;
+
+}
+
+
+
+header p{
+
+font-size:20px;
+
+margin-bottom:20px;
+
+}
+
+
+
+.btn{
+
+padding:12px 25px;
+
+background:#facc15;
+
+color:black;
+
+text-decoration:none;
+
+border-radius:30px;
+
+font-weight:600;
+
+transition:0.3s;
+
+}
+
+
+
+.btn:hover{
+
+background:white;
+
+transform:scale(1.1);
+
+}
+
+
+
+section{
+
+padding:100px 20px;
+
+text-align:center;
+
+}
+
+
+
+.section-title{
+
+font-size:35px;
+
+margin-bottom:30px;
+
+color:#1e3a8a;
+
+}
+
+
+
+.card{
+
+background:white;
+
+padding:30px;
+
+margin:20px;
+
+display:inline-block;
+
+width:250px;
+
+border-radius:15px;
+
+box-shadow:0 10px 25px rgba(0,0,0,0.1);
+
+transition:0.4s;
+
+}
+
+
+
+.card:hover{
+
+transform:translateY(-10px);
+
+box-shadow:0 15px 35px rgba(0,0,0,0.2);
+
+}
+
+
+
+form{
+
+max-width:400px;
+
+margin:auto;
+
+}
+
+input, textarea{
+
+width:100%;
+
+padding:10px;
+
+margin:10px 0;
+
+border-radius:8px;
+
+border:1px solid #ccc;
+
+}
+
+
+
+#admission {
+    padding: 100px 20px;
+    text-align: center;
+    /* निळा ग्रेडियंट आणि तुझी नवीन इमेज एकत्र */
+    background: linear-gradient(rgba(30, 58, 138, 0.9), rgba(37, 99, 235, 0.9)), 
+                url('/dnyanganga/bg-image/img-3.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white; 
+}
+
+#admission .section-title {
+    color: white;
+}
+
+#admission input, #admission textarea {
+    background: rgba(255, 255, 255, 0.9);
+}
+
+
+
+
+button{
+
+background:#1e3a8a;
+
+color:white;
+
+padding:10px;
+
+border:none;
+
+border-radius:8px;
+
+cursor:pointer;
+
+transition:0.3s;
+
+}
+
+
+
+button:hover{
+
+background:#2563eb;
+
+transform:scale(1.05);
+
+}
+
+
+
+footer{
+
+background:#111;
+
+color:white;
+
+padding:20px;
+
+text-align: center;
+
+}
+
+
+
+/* WhatsApp Button */
+
+.whatsapp{
+
+position:fixed;
+
+bottom:20px;
+
+right:20px;
+
+background:#25D366;
+
+color:white;
+
+padding:15px;
+
+border-radius:50%;
+
+font-size:25px;
+
+text-align:center;
+
+text-decoration:none;
+
+box-shadow:0 5px 15px rgba(0,0,0,0.3);
+
+transition:0.3s;
+
+}
+
+
+
+.whatsapp:hover{
+
+transform:scale(1.1);
+
+}
+
+
+
+/* Fade Animation */
+
+.fade-in{
+
+opacity:0;
+
+transform:translateY(30px);
+
+transition:1s;
+
+}
+
+
+
+.fade-in.show{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
