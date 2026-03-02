@@ -225,9 +225,9 @@ border:1px solid #ccc;
 #admission {
     padding: 100px 20px;
     text-align: center;
-    /* निळा ग्रेडियंट आणि तुझी नवीन इमेज एकत्र */
+    
     background: linear-gradient(rgba(30, 58, 138, 0.9), rgba(37, 99, 235, 0.9)), 
-                url('/dnyanganga/bg-image/img-3.png');
+                url('img-3.png');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -350,3 +350,4 @@ opacity:1;
 transform:translateY(0);
 
 }
+
